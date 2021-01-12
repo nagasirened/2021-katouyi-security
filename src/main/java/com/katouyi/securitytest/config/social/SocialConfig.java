@@ -1,7 +1,6 @@
 package com.katouyi.securitytest.config.social;
 
 import com.katouyi.securitytest.config.properties.SecurityProperties;
-import com.katouyi.securitytest.config.social.qq.KatouyiSpringSocialconfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

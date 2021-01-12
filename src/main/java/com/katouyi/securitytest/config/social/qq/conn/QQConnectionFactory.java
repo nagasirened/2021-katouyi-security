@@ -19,6 +19,8 @@ import java.nio.charset.Charset;
 /**
  * author: ZGF
  * context : QQ连接工厂
+ *
+ * SocialAuthenticationFilter
  */
 
 public class QQConnectionFactory extends OAuth2ConnectionFactory<QQ>{

@@ -1,4 +1,4 @@
-package com.katouyi.securitytest.config.social.qq;
+package com.katouyi.securitytest.config.social;
 
 import lombok.Setter;
 import org.springframework.social.security.SocialAuthenticationFilter;
