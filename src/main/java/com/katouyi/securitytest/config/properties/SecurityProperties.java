@@ -1,6 +1,7 @@
 package com.katouyi.securitytest.config.properties;
 
 import com.katouyi.securitytest.config.properties.normal.BrowserProperties;
+import com.katouyi.securitytest.config.properties.normal.CustomSocialProperties;
 import com.katouyi.securitytest.config.properties.normal.ValidateCodeProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -21,4 +22,6 @@ public class SecurityProperties {
     private BrowserProperties browser = new BrowserProperties();
 
     private ValidateCodeProperties valid = new ValidateCodeProperties();
+
+    private CustomSocialProperties social = new CustomSocialProperties();
 }

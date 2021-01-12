@@ -4,5 +4,22 @@ spring:
     url: jdbc:mysql://localhost:3306/imgman?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
     username: root
     password: root
+  session:
+    store-type: NONE
+
+
 server:
-  port: 10001
+  port: 8081
+
+katouyi:
+  security:
+    social:
+      filterProcessUrl: /qqLogin
+      qq:
+        app-id: 100550231
+        app-secret: 69b6ab57b22f3c2fe6a6149274e3295e
+        provider-id: qq
+      wechat:
+        app-id: 100550231
+        app-secret: 69b6ab57b22f3c2fe6a6149274e3295e
+        provider-id: wechat

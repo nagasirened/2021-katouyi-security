@@ -19,6 +19,10 @@ public class SecurityConstants {
      */
     public static final String DEFAULT_USER_REGIST = "/user/regist";
     /**
+     * 注册时获取social用户信息
+     */
+    public static final String SOCIAL_USER_INFO = "/social/userInfo";
+    /**
      * 图标
      */
     public static final String FAVICON_ICO = "/favicon.ico";

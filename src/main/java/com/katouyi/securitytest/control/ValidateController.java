@@ -1,7 +1,6 @@
-package com.katouyi.securitytest.test;
+package com.katouyi.securitytest.control;
 
 import com.katouyi.securitytest.config.valid.processor.AbstractValidateCodeProcessor;
-import com.katouyi.securitytest.config.valid.processor.ImageCodeProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,11 +13,11 @@ import java.util.Map;
 
 /**
  * author: ZGF
- * 01-2021/1/8 : 16:07
- * context :
+ * context : 获取验证码
+ * 目前可用的type分为 sms短信验证码 和 image图片验证码
  */
 @Controller
-public class TestController {
+public class ValidateController {
 
 
     @Autowired
